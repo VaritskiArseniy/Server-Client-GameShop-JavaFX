@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FEC8D0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerClasses.AddQuantity">
+    <children>
+        <Text layoutX="182.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добавить количество">
+            <font>
+                <Font name="Arial" size="51.0" />
+            </font>
+        </Text>
+        <Button fx:id="addGamesBtn" layoutX="51.0" layoutY="284.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Игры">
+            <font>
+                <Font name="Arial" size="29.0" />
+            </font>
+        </Button>
+        <Button fx:id="addProgramBtn" layoutX="355.0" layoutY="275.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="331.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Программы">
+            <font>
+                <Font name="Arial" size="29.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="172.0" fitWidth="331.0" layoutX="337.0" layoutY="94.0" pickOnBounds="true" smooth="false">
+            <image>
+                <Image url="@../images/program.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="backBtn" layoutX="12.0" layoutY="354.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="78.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 2px 2px 2px 2px; -fx-border-color: black;" text="Назад">
+            <font>
+                <Font name="Calisto MT" size="13.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="172.0" fitWidth="266.0" layoutX="12.0" layoutY="74.0" pickOnBounds="true" smooth="false">
+            <image>
+                <Image url="@../images/games.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

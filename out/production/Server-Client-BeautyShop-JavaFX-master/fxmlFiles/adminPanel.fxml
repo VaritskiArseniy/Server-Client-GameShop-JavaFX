@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FEC8D0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerClasses.AdminPanel">
+   <children>
+      <ImageView fitHeight="405.0" fitWidth="700.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/mainImage.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="180.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Администратор">
+         <font>
+            <Font name="Arial" size="40.0" />
+         </font>
+      </Text>
+      <Button fx:id="addProductBtn" layoutX="30.0" layoutY="84.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Добавить продукт">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="showProductsBtn" layoutX="30.0" layoutY="146.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Показать продукт">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="addStaffBtn" layoutX="410.0" layoutY="146.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Добавить сотрудника">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteStaffBtn" layoutX="410.0" layoutY="222.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Удалить сотрудника">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="historyBtn" layoutX="410.0" layoutY="84.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Посмотреть историю">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteProductBtn" layoutX="30.0" layoutY="222.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Удалить продукт">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="addQuantityBtn" layoutX="30.0" layoutY="293.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Добавить количество">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="incomeBtn" layoutX="410.0" layoutY="293.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="230.0" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white;" text="Доход">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="backBtn" layoutX="11.0" layoutY="364.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="78.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-border-width: 2px 2px 2px 2px; -fx-border-color: black;" text="Назад">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

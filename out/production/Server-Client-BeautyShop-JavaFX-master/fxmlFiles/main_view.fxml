@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0"
+      prefWidth="797.0"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerClasses.Main_View"   >
+
+<TabPane id="tabPane" prefHeight="484.0" prefWidth="797.0" tabClosingPolicy="UNAVAILABLE">
+    <Tab text="  Круговая диаграмма" id="pieChartTab" >
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="364.0" prefWidth="797.0">
+            <PieChart id="pieChart" layoutX="265.0" layoutY="15.0" prefWidth="250.0"/>
+        </AnchorPane>
+    </Tab>
+    <Tab text="      Гистограмма" id="barChartTab">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+            <BarChart id="barChart" layoutX="140.0" layoutY="15.0">
+                <xAxis>
+                    <CategoryAxis side="BOTTOM"/>
+                </xAxis>
+                <yAxis>
+                    <NumberAxis side="LEFT"/>
+                </yAxis>
+            </BarChart>
+        </AnchorPane>
+    </Tab>
+</TabPane>
+</Pane>
