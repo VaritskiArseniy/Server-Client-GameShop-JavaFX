@@ -1,6 +1,8 @@
 # Server-Client-BeautyShop-JavaFX
 This project is a mini Beauty shop  written in Java, and more precisely using JavaFX.
 
+### Screenshots:
+
 On entering, we are greeted by an authorization window:
 
 <img width="413" alt="image" src="https://github.com/VaritskiArseniy/Server-Client-GameShop-JavaFX/assets/109814366/cc8babfb-acf2-4ab0-9350-a57204f9d297">
